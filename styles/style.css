@@ -1,0 +1,147 @@
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+* {
+    margin: 0;
+}
+
+header {
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+
+    background-position: right bottom,
+        left;
+}
+
+/* navigation bar style  */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 220px;
+    padding-top: 50px;
+
+
+}
+
+nav li {
+    list-style: none;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.nav-items {
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+span {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: 0;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* header content  */
+.header {
+    display: flex;
+}
+
+.header-img {
+    width: 584px;
+    height: 676px;
+    /* padding-right: 100px; */
+}
+
+.header-contents {
+    padding-left: 220px;
+    margin-top: 150px;
+}
+
+.header-intro {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.header-content {
+    font-weight: 700;
+    font-size: 85px;
+}
+
+.header-text {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.download-btn {
+    margin-top: 35px;
+    display: flex;
+    gap: 30px;
+}
+
+.contact-btn {
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    background: #FFF8F3;
+}
+
+/* section container  */
+.section-container {}
+
+.about-contant {
+    background-color: #FFF8F3;
+    margin: 80px 200px;
+    padding: 80px 100px;
+    /* width: 1140px;
+    height: 550px; */
+
+
+}
+
+.about-me {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.about-description {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.about-info {
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.about-text h3,
+p {
+    text-align: center;
+}
+
+.about-infos {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    text-align: center;
+}
